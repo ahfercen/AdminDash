@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+.header{
+    grid-area: 1 / 2 / 6 / 6;
+    border: 2px solid blue;
+    display: flex;
+}
+.sidebar{
+    grid-area: 1 / 1 / 6 / 2;
+    border: 2px solid green;
+}
