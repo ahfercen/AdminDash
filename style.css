@@ -114,4 +114,26 @@ html{
     gap: 20px;
 }
 
+.greeting{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr;
+    grid-row: 2 / 3;
+}
+.greeting .greeting-profile{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 4fr;
+    grid-column: 1 / 2;
+    border: 2px solid green;
+    padding: 0px 10px 0px 30px;
+}
+.greeting .greeting-btns{
+    display: flex;
+    grid-column: 2 / 3;
+}
+.greeting-btns .greeting-button{
+    flex: 1;
+    gap: 600px;
+    border: 2px solid purple;
+}
 
