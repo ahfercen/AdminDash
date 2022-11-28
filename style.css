@@ -187,4 +187,22 @@ body{
     padding: 10px 25px 10px 25px;
     
 }
+.content{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border: 2px solid red;
+}
+.projects{
+    display: grid;
+    border: 2px solid blue;
+}
+.feed{
+
+    border: 2px solid green
+}
+
+
 
