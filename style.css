@@ -1,5 +1,10 @@
 html{
     font-family: sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+body{
+    margin: 0px;
 }
 .container{
     display: grid;
@@ -90,6 +95,7 @@ html{
     background-color: none;
     color: none;
     background: none;
+    border: none;
 }
 #submit img{
     max-width: 40px;
@@ -124,7 +130,6 @@ html{
     display: grid;
     grid-template: 1fr 1fr / 1fr 4fr;
     grid-column: 1 / 2;
-    border: 2px solid green;
     padding: 0px 10px 0px 30px;
 }
 .large-profile{
@@ -133,7 +138,6 @@ html{
     align-items: center;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    border: 2px solid red;
     margin-right: 20px;
 }
 .large-profile img{
@@ -146,11 +150,9 @@ html{
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
-    border: 2px solid purple;
-}
-.greeting-message p{
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 5px;
 }
 .greeting-username{
     grid-column: 2 / 3;
@@ -158,19 +160,15 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border: 2px solid purple;
-}
-.greeting-username p{
     font-weight: 500;
     font-size: 20px;
+    margin-top: 5px;
 }
-
 .greeting .greeting-btns{
     display: flex;
     grid-column: 2 / 3;
 }
 .greeting-btns .greeting-button{
     flex: 1;
-    border: 2px solid purple;
 }
 
