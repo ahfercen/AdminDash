@@ -46,7 +46,8 @@ html{
     font-size: 20px;
 }
 .sidebar img{
-    margin-right: 10px;;
+    margin-right: 10px;
+    max-width: 35px;
 }
 .sidebar .seperator{
     margin-bottom: 50px;;
@@ -71,12 +72,39 @@ html{
 .search form{
     flex: 3;
     border: 2px solid green;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+#submit{
+    margin-right: 15px;
+    background-color: none;
+    color: none;
+    background: none;
+}
+#submit img{
+    max-width: 40px;
+}
+#search{
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.642);
+    flex-grow: 1;
+    border: 0.5px solid lightgrey;
+}
+.profile-btns .bell{
+    max-width: 40px;
+}
+.profile-btns .profile{
+    max-width: 50px;
 }
 .search .profile-btns{
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
+
 
