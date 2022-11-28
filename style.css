@@ -15,8 +15,10 @@ html{
 }
 .logo .im{
     flex: 1;
-    align-items: flex-start;
-    width: 25px;
+    max-width: fit-content;
+}
+.im img{
+    max-width: 70px;
 
 }
 .logo .head{
@@ -37,8 +39,14 @@ html{
 }
 .sidebar ul li{
     margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 .sidebar a{
+    display: flex;
+    flex: 1;
+    align-items: center;
     text-decoration: none;
     text-decoration-color: white;
     color: white;
@@ -71,7 +79,6 @@ html{
 }
 .search form{
     flex: 3;
-    border: 2px solid green;
     display: flex;
     justify-content: left;
     align-items: center;
