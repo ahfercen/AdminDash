@@ -232,7 +232,6 @@ body{
     background-color: white;
     height: 100%;
     width: 100%;
-    border: 2px solid yellow;
     border-radius: 10px;
     display: grid;
     grid-template-columns: 3% 1fr;
@@ -269,9 +268,13 @@ body{
     margin-right: 15%;
 }
 .project-btns button{
+    align-self: center;
+    border: none;
+    background-color: rgba(1, 1, 1, 0);
+}
+.project-btns img{
     height: 35px;
     width: 35px;
-    align-self: center;
 }
 
 
