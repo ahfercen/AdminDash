@@ -286,15 +286,31 @@ body{
     grid-row: 1/2;
     display: flex;
     flex-direction: column;
-    padding: 0px 15px 0px 15px;
+    padding: 30px 15px 30px 15px;
     margin-bottom: 20px;
 }
 .announce-row{
+    padding-top: 10px;
     flex: 1;
+    display: flex;
     border-bottom: 1px soid black;
+    justify-content: center;
+    align-items:flex-start;
+    border: 2px solid red;
+    flex-direction: column;
+}
+.announce-row p{
+    margin: 0px;
+    color: rgb(139, 137, 137);
+}
+.announce-title{
+    font-size: 16px;
+    font-weight: bold;
 }
 .trending{
     grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
 }
 .trending-list{
     border-radius: 10px;
@@ -304,6 +320,8 @@ body{
 }
 .trending-row{
     flex: 1;
+    border-bottom: 1px soid black;
+
 }
 
 
