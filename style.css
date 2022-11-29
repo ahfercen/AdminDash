@@ -236,20 +236,44 @@ body{
     border-radius: 10px;
     display: grid;
     grid-template-columns: 3% 1fr;
+    grid-template-rows: 1fr;
 }
+
 .color-strip{
     background-color: orange;
     border-radius: 10px;
+    grid-row: 1 / 2;
+    grid-column: 1/2;
 }
 .project-content{
+    grid-column: 2/3;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    margin-left: 20px;
 }
-.profile-btns{
+.project-name-desc{
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: grey;
+}
+.project-title{
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+}
+.project-btns{
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    gap: 10%;
+    margin-right: 15%;
 }
+.project-btns button{
+    height: 35px;
+    width: 35px;
+    align-self: center;
+}
+
 
 
 
