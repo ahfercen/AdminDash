@@ -215,7 +215,7 @@ body{
 }
 .projects{
     grid-row: 2 / 4;
-    grid-column: ;
+    grid-column: 1 / 2 ;
     display: grid;
     overflow: auto;
     align-items: center;
@@ -274,7 +274,6 @@ body{
     width: 35px;
 }
 .feed{
-    border: 2px solid green;
     grid-row: 2 / 4;
     grid-column: 2 / 3;
     display: grid;
@@ -314,20 +313,42 @@ body{
 }
 .trending{
     grid-row: 2/3;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9fr;
+}
+.trending .title{
+    font-size: 18px;
+    font-weight: bold;
 }
 .trending-list{
     border-radius: 10px;
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
 }
 .trending-row{
     flex: 1;
-    border-bottom: 1px soid rgb(0, 0, 0);
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+.trending-user p{
+    margin: 0px;
+}
+.trending-name{
+    font-size: 90%;
+}
+.trending-tag{
+    font-size: 80%;
+    color: rgb(139, 137, 137);
+}
+.trending-row img{
+    max-width: 50px;
+}
+
+
 
 
 
