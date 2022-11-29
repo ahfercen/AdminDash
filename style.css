@@ -199,7 +199,7 @@ body{
     gap: 20px;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    background-color: rgba(128, 128, 128, 0.199);
+    background-color: #E2E8F0;
 }
 .your_projects{
     grid-row: 1 / 2;
@@ -290,14 +290,14 @@ body{
     margin-bottom: 20px;
 }
 .announce-row{
-    padding-top: 10px;
     flex: 1;
     display: flex;
     border-bottom: 1px soid black;
     justify-content: center;
     align-items:flex-start;
-    border: 2px solid red;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .announce-row p{
     margin: 0px;
@@ -306,6 +306,11 @@ body{
 .announce-title{
     font-size: 16px;
     font-weight: bold;
+}
+.announce-divider{
+    flex: 1;
+    max-height: 0px;
+    border-bottom: 1px solid rgb(73, 72, 72);
 }
 .trending{
     grid-row: 2/3;
@@ -320,7 +325,7 @@ body{
 }
 .trending-row{
     flex: 1;
-    border-bottom: 1px soid black;
+    border-bottom: 1px soid rgb(0, 0, 0);
 
 }
 
